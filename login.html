@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title> LogIn</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm header">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="login.html">LOGIN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="signup.html">SIGNUP</a>
+          </li>
+         
+          <!-- <li class="nav-item">
+            <a class="nav-link text-white" href="#">CATEGORY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">CATEGORY</a>
+          </li> -->
+        </ul>
+        <span class="far fa-square text-white ml-auto" ></span>
+      </nav>
+      
+      <div class="back mb-0 d-flex " style="border-radius: 0px;height: 200px;">
+        <h1 class="h1style text-white display-3 mt-5 ml-5">Library</h1>
+        <div class="ml-auto w-25 header mt-5" style=" height: 90px;margin-right: 55px;"></div>
+      </div>
+
+
+      <div class="container-fluid jumbotron mb-0 flex-column" >
+        <div style="background-color: white;margin-top: -95px;margin-left: 25px;margin-right:25px;background-image: url(flower.jpg);">
+             
+             <div style="height: 75px;"></div>
+            <div id="login">
+                <h1 id="h1sign">Log In</h1>
+                <form action="index.html" onsubmit="return validate2()">
+
+                    <table class="m-auto p-3" style="width: 300px;">
+                    <tr><td><input type="text" name="" id="luname" placeholder="Enter User Name"></td></tr>
+                    <tr><td><div class="val" id="val11"></div></td></tr>
+                    <tr><td><input type="password" name="" id="lpass" placeholder="Enter password"></td></tr>
+                    <tr><td><div class="val" id="val12"></div></td></tr>
+                    <tr><td><label class="text-white"><input type="checkbox" checked="checked" name="remember"> Remember me</label></td></tr>
+                    <tr><td><button type="submit" class="btn btn-xl bg-secondary float-right text-white "> Log In</button></td></tr>
+                    <tr><td><div style="display: flex;"><pre class="text-white">Create new account   </pre><label for=""><a href="signup.html" class="text-warning" >Sign Up</a></div></label></td></tr>
+                </table>
+                </form>
+
+
+
+
+
+
+
+                </div>
+            
+               
+                <div style="height: 75px;"></div>
+            </div>
+            
+            <h2 style="margin-top: 75px;">Follow Us</h2>
+            <div class="btn-group" style="width: 250px;">
+              <button class="btn btn-primary" type="button" >Twitter</button>
+              <button class="btn btn-info btnfacebook" type="button" >Facebook</button>
+              <button class="btn btn-danger btnplus" type="button" >Google+</button>
+            </div>
+          </div>
+      
+      </div>
+          
+     
+<script src="validation.js"></script>
+</body>
+</html>
